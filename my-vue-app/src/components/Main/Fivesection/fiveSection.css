@@ -1,0 +1,137 @@
+.fivesec-box {
+    width: 70%;
+    height: 670px;
+    margin: 0 auto;
+    display: flex;
+
+    .fivesec-box2 {
+        width: 480px;
+        height: 496px;
+        background-color: red;
+        margin-top: 5.5rem;
+
+        img {
+            width: 460px;
+            height: 480px;
+            object-fit: cover;
+        }
+    }
+
+    .five-box3 {
+        width: 43%;
+        margin-left: 4rem;
+
+        h1 {
+            font-size: 45px;
+            margin-top: 9rem;
+        }
+
+        p {
+            color: #727272;
+            margin-top: 30px;
+            font-size: 19px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            font-size: 15px;
+            margin-top: 3rem;
+            border: none;
+            color: red;
+            background-color: #fff;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: .3s;
+
+            &:hover {
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+
+    .img-box {
+        display: flex;
+
+
+        p {
+            font-size: 17px;
+            margin-left: 10px;
+            margin-top: 10px;
+            color: #727272;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .fivesec-box {
+        width: 70%;
+        height: 670px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+        .fivesec-box2 {
+            width: 480px;
+            height: 496px;
+            background-color: red;
+            margin-top: 5.5rem;
+    
+            img {
+                width: 460px;
+                height: 480px;
+                object-fit: cover;
+            }
+        }
+    
+        .five-box3 {
+            width: 43%;
+            margin-left: 4rem;
+    
+            h1 {
+                font-size: 45px;
+                margin-top: 9rem;
+            }
+    
+            p {
+                color: #727272;
+                margin-top: 30px;
+                font-size: 19px;
+                margin-bottom: 20px;
+            }
+    
+            button {
+                width: 150px;
+                height: 50px;
+                font-size: 15px;
+                margin-top: 3rem;
+                border: none;
+                color: red;
+                background-color: #fff;
+                border: 1px solid red;
+                cursor: pointer;
+                transition: .3s;
+    
+                &:hover {
+                    color: white;
+                    background-color: red;
+                }
+            }
+        }
+    
+        .img-box {
+            display: flex;
+    
+    
+            p {
+                font-size: 17px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: #727272;
+            }
+        }
+    }
+
+}

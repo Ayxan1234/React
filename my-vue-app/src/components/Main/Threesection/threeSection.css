@@ -1,0 +1,63 @@
+.threesec {
+    padding: 30px;
+    background-color: #F5FBFF;
+    margin-top: 3rem;
+
+    h1 {
+        text-align: center;
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    .threesec-box2 {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .threesec-box {
+            width: 300px;
+            overflow: hidden;
+
+            img {
+                object-fit: cover;
+                margin-bottom: 10px;
+            }
+
+            h2 {
+
+                cursor: pointer;
+                transition: .1s;
+
+                &:hover {
+                    color: red;
+                    border-bottom: 3px solid red;
+                }
+            }
+
+            p {
+                font-size: 19px;
+                font-weight: 400;
+                color: #919191;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .threesec {
+
+        .threesec-box2 {
+            width: 95%;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+
+            .threesec-box {
+                width: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.sixsec-box{
+    width: 70%;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #F5FBFF;
+    .sixsec-box2{
+        width: 20%;
+        text-align: center;
+        h1{
+            font-size: 50px;
+            color: red;
+            margin-top: 4.5rem;
+        }
+        p{
+            color: #596672;
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.twosection-boxs {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    margin-top: 5rem;
+
+    .one-box {
+        width: 300px;
+
+        img {
+            width: 55px;
+            height: 50px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 25px;
+            transition: .2s;
+            margin-bottom: 10px;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+        span {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #919191;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .twosection-boxs {
+        width: 95%;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+}
